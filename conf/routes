@@ -3,7 +3,8 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index1()
+GET     /                               controllers.Application.index()
+GET     /showData                           controllers.Application.index1()
 
 GET     /showRequest                           controllers.Application.showRequest()
 

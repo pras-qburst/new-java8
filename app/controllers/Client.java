@@ -24,7 +24,7 @@ public class Client extends Controller{
 		
 		singlePerson.put("name","Prasanth");
 		singlePerson.put("Native","Kerala");
-		singlePerson.put("work","Software Engineer");
+		singlePerson.put("work","Software Professional");
 		
 		
 		JsonNode json = Json.toJson(singlePerson);
